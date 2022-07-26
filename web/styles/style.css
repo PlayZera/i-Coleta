@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    background-color: #acacac;
+    background-image: url(/web/images/bateria.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: 109%;
+    background-position-y: 28rem;
+}
+
+.head-main
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.head-main h1
+{
+    font-size: 3rem;
+    color: #89c627;
+}
+
+.head-main p
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #3c5959;
+}
+
+#btn-collect span
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#btn-collect
+{
+    height: 4rem;
+    width: 10rem;
+    border-radius: 3rem;
+
+    border-color: #3c5959;
+    background-color: #89c627;
+    border: 0;
+
+    margin-top: 30%;
+    margin-left: 3rem;
+}
+
+
+
