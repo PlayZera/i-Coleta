@@ -32,6 +32,7 @@ body
 {
     font-size: 3rem;
     color: #89c627;
+    text-shadow: 1px 2px 3px #3c5959;
 }
 
 .head-main p
@@ -45,21 +46,43 @@ body
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    text-shadow: 0 0 3px #3c5959;
 }
 
 #btn-collect
 {
-    height: 4rem;
-    width: 10rem;
+    height: 5rem;
+    width: 12rem;
     border-radius: 3rem;
 
     border-color: #3c5959;
     background-color: #89c627;
     border: 0;
 
-    margin-top: 30%;
+    margin-top: 25%;
     margin-left: 3rem;
 }
+
+@keyframes btn-collect 
+{
+    0%    { opacity: 0; }
+    20%   { opacity: 1; }
+}
+
+#btn-collect:hover
+{
+    animation: btn-collect 3s;
+    box-shadow: 0 0 40px 40px #d3ff8b inset;
+}
+
+.map_close_of_you
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 
