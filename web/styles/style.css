@@ -12,7 +12,7 @@ html
 body
 {
     background-color: #acacac;
-    background-image: url(/web/images/bateria.png);
+    background-image: url(./images/bateria.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 30%;
