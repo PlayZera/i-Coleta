@@ -11,6 +11,8 @@ html
 
 body
 {
+    display: flex;
+    flex-direction: column;
     background-color: #acacac;
     background-image: url(/web/images/bateria.png);
     background-size: cover;
@@ -25,28 +27,51 @@ body
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
-    margin-left: 3rem;
 }
 
 .head-main h1
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 3rem;
     color: #89c627;
     text-shadow: 1px 2px 3px #3c5959;
 }
 
+.head-main h1 #bateria
+{
+    width: 12%;
+}
+
 .head-main p
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 1.25rem;
     font-weight: 700;
     color: #3c5959;
 }
 
-#btn-collect span
+.top-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-collect p
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-shadow: 0 0 3px #3c5959;
+}
+
+#btn-collect #mapa
+{
+    width: 12%;
 }
 
 #btn-collect
@@ -59,7 +84,7 @@ body
     background-color: #89c627;
     border: 0;
 
-    margin-top: 25%;
+    margin-top: 2%;
     margin-left: 3rem;
 }
 
