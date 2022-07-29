@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/recycle-bin.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>I-Coleta</title>
+</head>
+<body>
+
+    <div class="head-main">
+        <h1>Teste seus conhecimentos</h1>
+    </div>
+
+    <div class="quiz_class" id="quiz_1">
+        <ul style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <p>1- São elementos químicos mais comuns encontrados em pilhas e baterias:</p><br>
+            <p><input type="radio" name="resposta1" id="resposta1"> Ferro, zinco, flúor e alumínio</p><br>
+            <p><input type="radio" name="resposta2" id="resposta2"> Potássio, sódio, bromo e lítio</p><br>
+            <p><input type="radio" name="resposta3" id="resposta3"> Cádmio, mercúrio, chumbo e zinco</p><br>
+            <p><input type="radio" name="resposta4" id="resposta4"> Nitrogênio, cloro, zinco e iodo</p><br>
+
+        <button id="btn-collect" onclick="verificarResposta1()"><p>Checar resposta</p></button>
+        </ul>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    function verificarResposta1()
+    {
+        var correta = document.getElementById("resposta3").checked = true;
+    }
+
+</script>
